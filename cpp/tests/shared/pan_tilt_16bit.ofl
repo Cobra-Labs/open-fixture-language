@@ -1,0 +1,9 @@
+fixture shared:
+    channel pan:
+        attribute: pan
+        resolution: 16bit
+        cap 0..65535: open
+    channel tilt:
+        attribute: tilt
+        resolution: 16bit
+        cap 0..65535: open
